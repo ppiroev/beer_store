@@ -66,7 +66,7 @@ export default function RouteSwitch() {
       <Nav navCartItems={cartItems}/>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/beer_store" element={<Home />} />
+        <Route path="/beer_store/" element={<Home />} />
         <Route
           path="/shop"
           element={<Shop addToCart={addToCart} shopItems={items} />}
